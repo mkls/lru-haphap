@@ -1,0 +1,29 @@
+{
+  "name": "lru-haphap",
+  "version": "0.0.1",
+  "description": "LRU cache with expiration based on hashlru algorithm",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkls/lru-haphap.git"
+  },
+  "keywords": [
+    "lru",
+    "least-recently-used",
+    "cache",
+    "expiration"
+  ],
+  "author": "mkls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkls/lru-haphap/issues"
+  },
+  "homepage": "https://github.com/mkls/lru-haphap#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^25.2.2"
+  }
+}
